@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Subscribe</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header header--open">
+        <div class="container header__container">
+            <a class="logo" href="#">
+                <img class="logo__img" src="./images/coffe-logo.svg" alt="" width="236" height="26">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+
+                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">HOME</a>
+                    </li>
+
+                    <li class="header__nav-item"><a href="about.html" class="header__nav-link">ABOUT US</a>
+                    </li>
+
+                    <li class="header__nav-item"><a href="subscribe.html" class="header__nav-link">CREATE YOUR PLAN</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <button class="header__hamburger"></button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- HERO -->
+
+        <section class="hero subscribe__hero">
+            <div class="container subscribe__container">
+                <div class="subscribe-hero__item hero__item">
+                    <h1 class="hero__item-heading">Create a plan</h1>
+                    <p class="hero__item-desc">Build a subscription plan that best fits your needs. We offer an
+                        assortment of the best artisan coffees from around the globe delivered fresh to your door.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUBSCRIBE-WORKS -->
+
+        <section class="subscribe-works">
+            <div class="container">
+                <div class="subscribe-works__wrapper">
+                    <h2 class="visually-hidden">Subscribe works</h2>
+                    <img class="subscribe-works__top-img" src="./images/Group-oval2.png" alt="" width="800" height="35" srcset="./images/Group-oval2.png 1x, ./images/Group-oval2@2x.png 2x">
+                    <ul class="works__list">
+                        <li class="works-item">
+                            <p class="works-item__numb">01</p>
+                            <h3 class="works-item__heading subscribe-works__item-heading">Pick your coffee</h3>
+                            <p class="works-item__desc subscribe-works__item-desc">Select from our evolving range of
+                                artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There
+                                are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+
+                        <li class="works-item">
+                            <p class="works-item__numb">02</p>
+                            <h3 class="works-item__heading subscribe-works__item-heading">Choose the frequency</h3>
+                            <p class="works-item__desc subscribe-works__item-desc">Customize your order frequency,
+                                quantity, even your roast style and grind type. Pause, skip or cancel your subscription
+                                with no commitment through our online portal.</p>
+                        </li>
+
+                        <li class="works-item">
+                            <p class="works-item__numb">03</p>
+                            <h3 class="works-item__heading subscribe-works__item-heading">Receive and enjoy!</h3>
+                            <p class="works-item__desc subscribe-works__item-desc">We ship your package within 48 hours,
+                                freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide
+                                a distinct tasting experience.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS -->
+
+        <section class="cards">
+            <div class="container cards_container">
+                <div class="cards__wrapper">
+                    <div class="cards__left">
+                        <form class="left__form" action="#" method="post">
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="pruduct" value="preferences"
+                                    disabled>
+                                <span class="left__controller">
+                                    <h3 class="left__heading"><span class="left__numb">01</span>Preferences</h3>
+                                    <hr>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="pruduct" value="beans">
+                                <span class="left__controller">
+                                    <h3 class="left__heading"><span class="left__numb">02</span>Bean Type</h3>
+                                    <hr>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="pruduct" value="quantity">
+                                <span class="left__controller">
+                                    <h3 class="left__heading"><span class="left__numb">03</span>Quantity</h3>
+                                    <hr>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="pruduct" value="grind">
+                                <span class="left__controller">
+                                    <h3 class="left__heading"><span class="left__numb">04</span>Grind Option</h3>
+                                    <hr>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="pruduct" value="deliveries">
+                                <span class="left__controller">
+                                    <h3 class="left__heading"><span class="left__numb">05</span>Deliveries</h3>
+                                </span>
+                            </label>
+
+                        </form>
+                    </div>
+
+
+                    <div class="cards__right">
+
+                        <h2 class="right__heading">How do you drink your coffee?</h2>
+                        <form class="right__form" action="#" method="post">
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Capsule</h3>
+                                    <p class="controller__desc">Compatible with Nespresso systems and similar brewers</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Filter</h3>
+                                    <p class="controller__desc">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Espresso</h3>
+                                    <p class="controller__desc">Dense and finely ground beans for an intense, flavorful experience</p>
+                                </span>
+                            </label>
+                        </form>
+
+                        <h2 class="right__heading">What type of coffee?</h2>
+                        <form class="right__form" action="#" method="post">
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Single Origin</h3>
+                                    <p class="controller__desc">Distinct, high quality coffee from a specific family-owned farm</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Decaf</h3>
+                                    <p class="controller__desc">Just like regular coffee, except the caffeine has been removed</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Blended</h3>
+                                    <p class="controller__desc">Combination of two or three dark roasted beans of organic coffees</p>
+                                </span>
+                            </label>
+                        </form>
+
+                        <h2 class="right__heading">How much would you like?</h2>
+                        <form class="right__form" action="#" method="post">
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">250g</h3>
+                                    <p class="controller__desc">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">500g</h3>
+                                    <p class="controller__desc">Perfect for offices and events. Yields about 40 delightful cups.</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">1000g</h3>
+                                    <p class="controller__desc">Perfect option for a couple. Yields about 90 delectable cups.</p>
+                                </span>
+                            </label>
+                        </form>
+
+                        <h2 class="right__heading">Want us to grind them?</h2>
+                        <form class="right__form" action="#" method="post">
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Wholebean</h3>
+                                    <p class="controller__desc">Best choice if you cherish the full sensory experience</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Filter</h3>
+                                    <p class="controller__desc">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Cafetiére</h3>
+                                    <p class="controller__desc"> Course ground beans specially suited for french press coffee</p>
+                                </span>
+                            </label>
+                        </form>
+
+                        <h2 class="right__heading">How often should we deliver?</h2>
+                        <form class="right__form" action="#" method="post">
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Every week</h3>
+                                    <p class="controller__desc">$7.20 per shipment. Includes free first-class shipping.</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Every weeks</h3>
+                                    <p class="controller__desc">$9.60 per shipment. Includes free priority shipping.</p>
+                                </span>
+                            </label>
+
+                            <label>
+                                <input class="visually-hidden" type="checkbox" name="measure" value="preferences">
+                                <span class="right__controller">
+                                    <h3 class="controller__heading">Every month</h3>
+                                    <p class="controller__desc">$12.00 per shipment. Includes free priority shipping.</p>
+                                </span>
+                            </label>
+                        </form>
+
+                       <div class="right__bot">
+                        <div class="right__bot-words">
+                            <h4 class="right__bot-heading">
+                                Order Summary
+                            </h4>
+                            <p class="right__bot-desc">
+                                “I drink my coffee as <a class="right__bot-link" href="#">Filter</a>, with a <a  class="right__bot-link" href="#">Decaf</a> type of bean. <a  class="right__bot-link" href="#">250g</a> ground ala <a  class="right__bot-link" href="#">Cafetiére</a>, sent to me <a  class="right__bot-link" href="#">Every Week</a>.”
+                            </p>
+                        </div>
+
+                        <button class="button">Create your plan</button>
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+     <!-- FOOTER -->
+
+     <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__logo" href="#">
+                <img class="footer__logo-img" src="./images/footer-logo.png" alt="footer logo" width="236" height="26" srcset="./images/footer-logo.png 1x, ./images/footer-logo@2x.png 2x">
+            </a>
+            <ul class="header__nav-list footer__links">
+
+                <li class="header__nav-item footer__links-item"><a href="index.html" class="header__nav-link">HOME</a>
+                </li>
+
+                <li class="header__nav-item footer__links-item"><a href="about.html" class="header__nav-link">ABOUT US</a>
+                </li>
+
+                <li class="header__nav-item footer__links-item"><a href="subscribe.html" class="header__nav-link">CREATE YOUR PLAN</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__icon-link" href="#">
+                        <img class="footer__icon-img" src="./images/facebook.svg" alt="" width="27" height="27">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__icon-link" href="#">
+                        <img class="footer__icon-img" src="./images/twitter.svg" alt="" width="24" height="20">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__icon-link" href="#">
+                        <img class="footer__icon-img" src="./images/instagtam.svg" alt="" width="24" height="24">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

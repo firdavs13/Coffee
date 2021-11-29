@@ -1,0 +1,373 @@
+.election {
+    padding: 100px 0 240px;
+
+    &__wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 1280px;
+        padding: 100px 0 240px;
+        border-radius: 8px;
+        background-color: #293039;
+    }
+
+    &__words {
+        width: 540px;
+        margin: 0 auto 86px;
+    }
+
+    &__heading {
+        margin: 0 0 32px;
+        font-size: 40px;
+        font-weight: 900;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: 'Fraunces 9pt S000';
+    }
+
+    &__desc {
+        margin: 0;
+        color: #FEFCF7;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 30px;
+        right: 30px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+
+
+.election-item {
+    padding: 72px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    background-color:#0E8784;
+    color: #FEFCF7;
+
+    & + & {
+        margin-left: 30px;
+    }
+
+    &__img {
+        width: 72px;
+        height: auto;
+        margin-bottom: 56px;
+    }
+
+    &:nth-child(3) &__img {
+        margin-bottom: 67px;
+    }
+
+    &__heading {
+        margin: 0 0 24px;
+        font-size: 24px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+        text-align: center;
+    }
+
+    &__desc {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .election {
+        padding: 100px 0 220px;
+
+        &__wrapper {
+            padding: 100px 0 180px;
+        }
+
+        &__words {
+            width: 540px;
+            margin: 0 auto 70px;
+        }
+
+        &__heading {
+            margin: 0 0 28px;
+            font-size: 36px;
+        }
+
+        &__desc {
+            font-size: 15px;
+        }
+
+    }
+
+    .election-item {
+        padding: 40px 35px 30px;
+
+        &__img {
+            width: 64px;
+            height: auto;
+            margin-bottom: 35px;
+        }
+
+        &:nth-child(3) &__img {
+            margin-bottom: 60px;
+         }
+
+        &__heading {
+            margin: 0 0 20px;
+            font-size: 22px;
+        }
+
+        &__desc {
+            font-size: 15px;
+            line-height: 26px;
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 970px) {
+
+
+    .election-item {
+        padding: 20px 25px 30px;
+
+        &__img {
+            width: 50px;
+            height: auto;
+            margin-bottom: 35px;
+        }
+
+
+
+        &__heading {
+            margin: 0 0 20px;
+            font-size: 20px;
+        }
+
+        &__desc {
+            font-size: 14px;
+            line-height: 26px;
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 810px) {
+    .election {
+
+        padding: 100px 0 360px;
+
+        &__wrapper {
+            padding: 56px 0 300px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .election-item {
+
+        padding: 45px 50px 45px 75px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        max-width: 600px;
+
+        & + & {
+            margin-left: 0px;
+        }
+
+        &__img {
+            margin-bottom: 0px;
+            width: 60px;
+        }
+
+        &__word-block{
+            width: 360px;
+            text-align: left;
+        }
+
+        &:nth-child(3) &__img {
+            margin-bottom: 0px;
+       }
+
+       &__heading {
+        text-align: left;
+       }
+
+        &__desc {
+        text-align: left;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .election {
+
+        padding: 100px 0 330px;
+
+        &__wrapper {
+            padding: 56px 0 300px;
+        }
+
+        &__words {
+            margin: 0 auto 70px;
+            text-align: center;
+
+        }
+
+        &__heading {
+            margin: 0 0 24px;
+            font-size: 32px;
+        }
+
+        &__desc {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .election-item {
+
+        padding: 41px 48px 41px 70px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        max-width: 573px;
+
+        & + & {
+            margin-left: 0px;
+        }
+
+        &__img {
+            margin-bottom: 0px;
+            width: 56px;
+        }
+
+        &__img-block{
+            margin-right: 20px;
+        }
+
+        &__word-block{
+            width: 344px;
+            text-align: left;
+        }
+
+        &__heading {
+            margin: 0 0 16px;
+            font-size: 24px;
+            text-align: left;
+        }
+
+        &__desc {
+            text-align: left;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &:nth-child(3) &__img {
+            margin-bottom: 0px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .election {
+        &__words {
+            width: 80%;
+            margin: 0 auto 86px;
+        }
+
+        &__heading {
+            margin: 0 0 25px;
+            font-size: 30px;
+        }
+
+        &__desc {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .election {
+        padding: 100px 0 600px;
+
+        &__wrapper {
+            padding: 100px 0 600px;
+        }
+    }
+
+    .election-item {
+        padding: 72px 12px 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        &__img {
+            width: 72px;
+            height: auto;
+            margin-bottom: 56px;
+        }
+
+        &:nth-child(3) &__img {
+            margin-bottom: 67px;
+        }
+
+        &__word-block {
+            width: 80%;
+        }
+
+        &__heading {
+            text-align: center;
+        }
+
+        &__desc {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .election {
+
+        &__wrapper {
+            padding: 100px 0 650px;
+        }
+    }
+}

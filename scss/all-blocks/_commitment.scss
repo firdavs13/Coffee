@@ -1,0 +1,155 @@
+.commitment{
+    padding: 68px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1150px;
+    }
+
+    &__left {
+        width: 445px;
+        height: 520px;
+    }
+
+    &__right {
+        width: 540px;
+        color: #333D4B;
+    }
+
+    &__main-heading {
+        margin: 0 0 32px;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 900;
+        font-family:  'Fraunces 9pt S000';
+    }
+
+    &__main-desc {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .commitment{
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        &__left {
+            width: 100%;
+            margin-right: 40px;
+        }
+
+        &__right {
+            width: 100%;
+        }
+
+        &__main-heading {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .commitment{
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__left {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+
+
+        &__main-heading {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        &__main-desc {
+           text-align: center;
+           font-size: 15;
+           line-height: 25px;
+        }
+
+        &__img {
+           width: 320px;
+           height: auto;
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .commitment{
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__left {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+
+
+        &__main-desc {
+           text-align: center;
+
+        }
+
+        &__img {
+           width: 70%;
+           height: auto;
+        }
+
+        &__right {
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .commitment{
+
+        &__img {
+           width: 80%;
+           height: auto;
+        }
+
+        &__right {
+            width: 90%;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .commitment{
+
+        &__img {
+           width: 90%;
+           height: auto;
+        }
+    }
+}

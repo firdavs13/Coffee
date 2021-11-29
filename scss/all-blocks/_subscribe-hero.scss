@@ -1,0 +1,21 @@
+.subscribe__hero {
+    padding-bottom: 100px;
+
+    .subscribe-hero__item {
+        background-image: url("../../images/subcribe.png");
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .subscribe-hero__item {
+        background-image: url("../../images/subcribe@2x.png");
+    }
+
+}

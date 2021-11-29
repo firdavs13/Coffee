@@ -1,0 +1,123 @@
+.quality {
+    padding: 188px 0 168px;
+
+    &__wrapper {
+        display: flex;
+        position: relative;
+        padding: 88px 85px 176px;
+        border-radius: 8px;
+        background-color: #293039;
+    }
+
+    &__left {
+        width: 540px;
+        color: #FEFCF7;
+    }
+
+    &__heading {
+        margin: 0 0 32px;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 900;
+        font-family:  'Fraunces 9pt S000';
+    }
+
+    &__desc {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+
+    &__right {
+        position: absolute;
+        left: 750px;
+        bottom: 88px;
+    }
+
+    &__img-one {
+        border-radius: 10px;
+    }
+
+    &__img-two {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .quality {
+        &__right {
+            left: 660px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .quality {
+        padding: 400px 0 168px;
+
+        &__wrapper {
+            padding: 150px 85px 85px;
+        }
+
+        &__left {
+            width: 100%;
+        }
+
+        &__heading {
+            text-align: center;
+        }
+
+        &__desc {
+            text-align: center;
+        }
+
+        &__img-one {
+            display: none;
+        }
+
+        &__img-two {
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 573px;
+            height: 320px;
+        }
+
+        &__right {
+            position: absolute;
+            left: 25%;
+            bottom: 70%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .quality {
+
+        &__right {
+            left: 20%;
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .quality {
+
+        &__right {
+            left: 16%;
+        }
+
+        &__img-two {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .quality {
+
+        &__right {
+            left: 13%;
+        }
+    }
+}

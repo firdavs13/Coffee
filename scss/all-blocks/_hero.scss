@@ -1,0 +1,131 @@
+.hero {
+    padding-bottom: 136px;
+
+    &__item {
+        padding: 80px 85px 98px;
+        border-radius: 10px;
+        background-image: url("../images/hero-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #FEFCF7;
+    }
+
+    &__item-heading {
+        width: 493px;
+        font-size: 72px;
+        font-family: 'Fraunces 9pt S000';
+    }
+
+    &__item-desc {
+        width: 445px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .hero__item {
+        background-image: url("../../images/hero-background@2x.png")
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+    .hero {
+        &__item {
+            background-position: -250px 0;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero {
+
+        padding-bottom: 144px;
+
+
+        &__item {
+            padding: 104px 0px 104px 58px ;
+            background-size: cover;
+            background-position: -300px 0;
+        }
+
+        &__item-heading {
+            width: 360px;
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        &__item-desc {
+            width: 370px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hero {
+
+        padding-bottom: 120px;
+
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 85px 30px;
+            background-position: -400px 0;
+        }
+
+        &__item-heading {
+            width: 100%;
+            font-size: 45px;
+            line-height: 48px;
+            text-align: center;
+        }
+
+        &__item-desc {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+    .hero {
+
+        padding-bottom: 120px;
+
+
+        &__item {
+            padding: 100px 24px;
+            background-position: -400px 0;
+        }
+
+        &__item-heading {
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        &__item-desc {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

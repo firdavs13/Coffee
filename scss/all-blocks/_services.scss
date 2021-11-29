@@ -1,0 +1,132 @@
+.services__container {
+
+    width: 100%;
+    max-width: 1150px;
+    padding: 126px 0 100px;
+    background: url("../images/services-background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+
+    .sevices__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: -15px;
+    }
+}
+
+.services__item {
+
+    width: 255px;
+    text-align: center;
+    color: #333D4B;
+    margin: 15px;
+
+    &-img {
+        margin-bottom: 72px;
+        width: 255px;
+        height: 193px;
+    }
+
+    &-heading {
+        margin: 0 0 24px;
+        font-size: 24px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+    }
+
+    &-desc {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .services__container {
+        background: url("../images/services-background@2x.png");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .services__container {
+        max-width: 543px;
+        padding: 75px 0 ;
+
+
+        .sevices__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .services__item {
+
+        width: 100%;
+        margin: 0 0 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &-img {
+            margin: 0;
+        }
+
+        &-word-block {
+            padding: 0 20px;
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .services__container {
+        padding: 75px 0 ;
+        width: 90%;
+
+        &__item-img {
+            width: 100%;
+        }
+
+        .sevices__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .services__item {
+
+        width: 80%;
+        margin: 0 0 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-word-block {
+            padding: 0 20px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.cards{
+    padding: 68px 0;
+
+    .cards_container {
+        width: 1150px;
+    }
+
+    .cards__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.cards__left{
+
+    width: 255px;
+    padding-top:30px;
+
+    .left__heading{
+        margin: 24px 0;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+    }
+
+    .left__numb{
+        margin-right: 29px;
+    }
+
+
+    .left__controller{
+        color: #ADB1B7;
+    }
+
+    .left__controller:hover {
+        color: #848990;
+        cursor: pointer;
+    }
+
+    input:disabled + .left__controller{
+        color: #848990;
+        cursor: default;
+    }
+
+    input:checked + .left__controller {
+        color: #333D4B;
+    }
+}
+
+.cards__right{
+
+    width: 730px;
+
+    .right__heading{
+        margin: 0 0 56px;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+        color:#83888F;
+    }
+
+    .right__form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 88px;
+    }
+
+    .right__controller {
+        display: inline-block;
+        width: 228px;
+        height: 250px;
+        padding: 32px 28px;
+        border-radius: 8px;
+        color: #333D4B;
+        background: #F4F1EB;
+    }
+
+    .controller__heading{
+        margin: 0 0 24px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+    }
+
+    .controller__desc{
+        margin: 0;
+        width: 172px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    input:checked + .right__controller {
+        background: #0E8784;
+        color: white;
+    }
+
+    .right__controller:hover {
+        background: #FDD6BA;
+    }
+
+    .right__bot {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .right__bot-words{
+        margin-bottom: 40px;
+        padding: 27px 64px;
+        background-color: #293039;
+        border-radius: 5px;
+    }
+
+    .right__bot-heading {
+        margin: 0 0 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        opacity: 0.5;
+    }
+
+    .right__bot-desc {
+        margin: 0;
+        word-spacing: 4px;
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 900;
+        font-family: 'Fraunces 9pt S000';
+        color: #fff;
+    }
+
+    .right__bot-link{
+        color: #0E8784;
+        text-decoration: none;
+    }
+}
